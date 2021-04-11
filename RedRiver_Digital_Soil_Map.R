@@ -135,12 +135,12 @@ ras <- mean(Aridic+Udic+Ustic+Xeric)
 #plot(ras, col = terrain.colors(5))
 #plot(ras,col=rainbow(4))
 plot(ras, legend = FALSE, #col = terrain.colors(5),
-     col = c("#0C2C84", "#41B6C4", "gold1", "red", "white"), 
+     col = c("#0C2C84", "#41B6C4", "gold1", "red"), 
      axes = TRUE
 )
 legend("bottomleft", adj = c(0, 0.6),
-       legend = c("Aridic", "Udic", "Ustic", "Xeric", "Undefined"),
-       fill = c("#0C2C84", "#41B6C4", "gold1", "red", "white"),
+       legend = c("Aridic", "Udic", "Ustic", "Xeric"),
+       fill = c("#0C2C84", "#41B6C4", "gold1", "red"),
        #fill = terrain.colors(5),
        border = TRUE,
        bty = "o") # turn off legend border)
