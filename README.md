@@ -1,1 +1,1 @@
-# Digital_Soil_Moisture_Mapping
+# Pixel-based soil moisture mapping for Red River Basin 
